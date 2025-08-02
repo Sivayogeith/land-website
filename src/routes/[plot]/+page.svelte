@@ -5,17 +5,19 @@
 
 <div class="bg-translucent w-[90vw] rounded-xl shadow-xl p-5">
     
-    <div class="justify-between flex items-center">
-        <div class="flex items-end gap-1">
-            <h1 class="text-4xl font-bold">
-                {data.plot.price}
-            </h1>
-            <p class="text-2xl">@ {data.cities.find(city => city.id == data.plot.city)?.name}</p>
+    <div class="justify-between grid md:grid-cols-2 grid-cols-1 items-center">
+        <div class="flex flex-col">
+            <div class="items-end gap-1 md:flex grid grid-cols-1">
+                <h1 class="text-4xl font-bold">
+                    {data.plot.price}
+                </h1>
+                <p class="text-2xl">@ {data.cities.find(city => city.id == data.plot.city)?.name}</p>
+            </div>
+            <p class="text-xl">{data.plot.title}</p>
         </div>
-        <p class="text-2xl">+91 9791225533</p>
+        <p class="text-2xl flex md:justify-end mt-5 md:m-0">+91 9791225533</p>
     </div>
-  <p class="text-xl">{data.plot.title}</p>
-  <div class="flex justify-center m-10">
+  <div class="flex justify-center md:mx-10 my-5 m-1">
       <Carousel class="max-w-[60rem]" images={data.plot.images} />
   </div>
   <div class="mt-4">{@html data.plot.description}</div>

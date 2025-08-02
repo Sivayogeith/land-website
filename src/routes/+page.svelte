@@ -43,11 +43,11 @@
       <!-- </a> -->
 
       <a href={"/" + plot.slug}>
-        <div class="flex justify-between items-center px-4 my-2">
+        <div class="grid md:grid-cols-2 grid-cols-1 justify-between items-center px-4 my-2">
           <h3 class="text-xl font-semibold text-primary-900 ">
             {plot.title}
           </h3>
-          <p>₹<span class="text-lg">{plot.price}</span></p>
+          <p class="flex md:justify-end">₹<span class="text-lg">{plot.price}</span></p>
         </div>
         <div class="flex justify-between items-center px-4 my-2">
           <h3 class="text-lg text-primary-900">
