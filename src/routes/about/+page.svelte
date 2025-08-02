@@ -11,6 +11,6 @@
   </div>
   <div class="bg-white shadow-2xl rounded-2xl p-6 md:p-8 flex flex-col items-center text-center hover:shadow-primary-900 transition-shadow duration-300 md:text-lg">
     <img class="w-40 h-40 md:w-52 md:h-52 object-cover rounded-full border-4 border-primary-400" src={uma} alt="Uma" />
-    <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-4">Bhaskar Morais</h2>
+    <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-4">Bhaskar</h2>
   </div>
 </div>
