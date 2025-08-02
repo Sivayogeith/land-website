@@ -1,7 +1,7 @@
 <nav class="bg-primary-50 border-primary-200">
   <div class="min-w-screen-xl flex flex-wrap items-center justify-between p-4 mx-4">
     <a href="/" class="flex items-center">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-800">Trichy Plot Bazaar</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-800">Plot Bazaar</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-600 rounded-lg md:hidden hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-primary-200" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
