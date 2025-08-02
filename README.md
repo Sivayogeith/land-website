@@ -1,38 +1,18 @@
-# sv
+# Land/Plots Website 
+This is a responsive land/plots website I built for someone with Svelte and Tailwind CSS.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<img width="1920" height="999" alt="Screenshot 2025-08-02 at 9 08 28 PM" src="https://github.com/user-attachments/assets/469e0fbd-22bf-4657-a971-8beb76ec31ee" />
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Location-based filtering
+- Fully responsive across devices
+- Reusable components
+- About page
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Svelte
+- Tailwind CSS
+- daisyUi
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
